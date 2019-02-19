@@ -8,4 +8,6 @@ We use pre-trained word embeddings to train the model, which is [wiki-news-300d-
 Using the parameter configuration in the code, the best accuracy achieved on the validation set is 84.11%.
 
 To run the code:
-···python train_valid_test.py --seed 1234···
+```
+python train_valid_test.py --seed 1234
+```
