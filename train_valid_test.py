@@ -272,7 +272,7 @@ def main(args):
     # Load pre-trained word embeddings and data
     t2i = defaultdict(lambda: len(t2i))
 
-    w_v = load_vectors("wiki-news-300d-1M.vec")
+    w_v = load_vectors("word_embeddings/wiki-news-300d-1M.vec")
     print("Vocabulary loaded!!")
     train_set = list(read_dataset("dataset/topicclass_train.txt", w_v, t2i))
     dev_set = list(read_dataset("dataset/topicclass_valid.txt", w_v, t2i))
